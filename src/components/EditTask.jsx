@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 //! icons
 import { CheckIcon } from "@heroicons/react/24/solid";
 import { useState,useEffect } from "react";
@@ -27,17 +28,14 @@ const EditTask = ({ changeTodo, editTodo,closeEdit }) => {
   },[closeEdit])
 
 
-  // const changeVisibilty = (e)=>{
-  //     e.target.syle.display = "none"
-  // }
-
   return (
     <div 
         role="dialog"
         aria-labelledby="editTask"
         onClick={(e)=>{e.target === e.currentTarget && closeEdit()}}
+        
         >
-      <form onSubmit={handleForm}>
+      <form onSubmit={handleForm} className="todoform">
         <div className="wrapper">
           <input
             type="text"

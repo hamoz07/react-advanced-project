@@ -128,10 +128,6 @@ hr {
 }
 
 .btn {
-  max-width: fit-content;
-  display: flex;
-  place-items: center;
-  gap: 0.5em;
   background-color: hsl(var(--accent));
   color: hsl(var(--bg));
   text-decoration: none;
@@ -168,6 +164,18 @@ hr {
     0 0 0 0.4em hsl(var(--accent) / 0.7);
 }
 
+.todoform {
+  display: flex; /* Use flexbox to align elements horizontally */
+  align-items: center; /* Center elements vertically */
+  gap: 20px;
+}
+
+.wrapper {
+  flex: 1; /* Use the remaining space */
+  display: grid;
+  gap: 0.2em;
+}
+
 .todo {
   display: flex;
   gap: 0.5em;
@@ -200,7 +208,7 @@ hr {
 .input {
   border: none;
   border-radius: var(--_radius);
-  padding: 0.35em 0.55em;
+  padding: 0.8em;
   width: 100%;
   background-color: hsl(var(--muted));
   caret-color: hsl(var(--accent));

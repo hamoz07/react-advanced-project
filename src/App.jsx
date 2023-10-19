@@ -61,11 +61,7 @@ function App() {
       <header>
         <h1>My Todo List</h1>
       </header>
-
-
       {edit &&
-
-
       <EditTask
         changeTodo={todoHandler}
         editTodo={updateTaskName}
