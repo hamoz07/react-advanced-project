@@ -32,4 +32,4 @@ Explain how to install your project. You can provide step-by-step instructions i
 
 ---
 
-[Report a Bug](https://github.com/hamoz07/react-advanced-project/issues) | [Request a Feature](https://github.com/your-username/your-repo-name/issues)
+[Report a Bug](https://github.com/hamoz07/react-advanced-project/issues) | [Request a Feature](https://github.com/hamoz07/react-advanced-project/issues)
