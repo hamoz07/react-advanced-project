@@ -20,11 +20,6 @@ this project made to practice more advanced ways of using react and to help peop
 * you can use it from here: https://advanced-todo-list-manager.vercel.app/
 
 
-## Installation
-
-Explain how to install your project. You can provide step-by-step instructions if needed.
-
-
 ## Contact
 
 - if you find any problem you can reach me through: hamozaar07@gmail.com
